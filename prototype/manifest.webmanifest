@@ -1,0 +1,10 @@
+{
+  "name":"ParcelTrace — AI-Assisted Property Intelligence",
+  "short_name":"ParcelTrace",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#071218",
+  "theme_color":"#071218",
+  "description":"Interactive portfolio prototype for human-verified AI property research.",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
