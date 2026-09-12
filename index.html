@@ -10,118 +10,72 @@
 <body>
   <header class="site-header">
     <div class="nav-shell">
-      <a class="brand" href="#top"><span>Anna Mustapha</span><small>Product + UX</small></a>
+      <a class="brand" href="#top"><strong>Anna Mustapha</strong><span>Product + UX</span></a>
       <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#lens">Lens</a>
-        <a href="mailto:missinglinq@outlook.com">Contact</a>
+        <a href="#work">Work</a><a href="#story">Story</a><a href="#lens">Lens</a><a href="mailto:missinglinq@outlook.com">Contact</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero shell">
+    <section class="hero-shell shell">
       <div class="hero-copy">
-        <p class="kicker">NEW ORLEANS · PRODUCT DESIGN · AI-ASSISTED SYSTEMS</p>
-        <h1>Designing clarity<br>into complex work.</h1>
-        <p class="hero-deck">I bring more than a decade of public-sector systems thinking into product and UX design — translating dense workflows, evidence, and decisions into experiences that feel useful, calm, and human.</p>
-        <div class="hero-actions">
-          <a class="btn btn-dark" href="#work">View selected work</a>
-          <a class="link-arrow" href="#about">My story <span>↘</span></a>
-        </div>
+        <p class="eyebrow">NEW ORLEANS · PRODUCT DESIGN · AI-ASSISTED SYSTEMS</p>
+        <h1>Clarity for<br><em>complex systems.</em></h1>
+        <p class="lede">I turn complicated public-sector workflows into human-centered products and experiences that feel considered, useful, and real.</p>
+        <div class="actions"><a class="button primary" href="#work">View my work →</a><a class="button secondary" href="#story">Read my story</a></div>
+        <div class="grounded"><span></span><p>DESIGN GROUNDED IN OPERATIONS,<br>EVIDENCE, AND REAL-WORLD IMPACT.</p></div>
       </div>
-
-      <div class="hero-media">
-        <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tree_of_Life_-_Audubon_Park%2C_New_Orleans_January_2026.jpg?width=1400" alt="Live oak in Audubon Park, New Orleans" />
-        <div class="photo-tag"><span>01</span><span>Audubon Park · New Orleans</span></div>
+      <figure class="hero-photo">
+        <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tree_of_Life_-_Audubon_Park%2C_New_Orleans_January_2026.jpg?width=1600" alt="Live oak and walking path in Audubon Park, New Orleans" />
+        <div class="hero-overlay"><p>Different paths.<br>Same purpose.</p><small>AUDUBON PARK · NEW ORLEANS</small></div>
         <a class="rabbit-hop" href="rabbit/" aria-label="Open the hidden rabbit UX challenge">🐇</a>
+      </figure>
+    </section>
+
+    <section class="principles">
+      <div class="shell principle-grid">
+        <article><span class="icon">◌</span><div><p class="eyebrow">PEOPLE FIRST</p><p>Human judgment stays<br>where consequences matter.</p></div></article>
+        <article><span class="icon">⌘</span><div><p class="eyebrow">THINK IN SYSTEMS</p><p>The best screen is only as<br>good as the workflow around it.</p></div></article>
+        <article><span class="icon">✦</span><div><p class="eyebrow">KEEP LEARNING</p><p>Curiosity is part of the work,<br>not a side note.</p></div></article>
       </div>
     </section>
 
-    <section id="about" class="about shell section-rule">
-      <div class="section-marker"><span>02</span><p>ABOUT</p></div>
-      <div class="about-heading">
-        <p class="kicker">A DIFFERENT PATH INTO DESIGN</p>
-        <h2>Curiosity became a career direction.</h2>
-      </div>
-      <div class="about-copy">
-        <p>I’ve always been drawn to solving problems, helping people, art, and technology. After more than a decade working inside complex government operations, my curiosity about AI and design became something I wanted to build with — not simply watch from the sidelines.</p>
-        <p>Today I’m applying that analytical background to human-centered products: understanding the system, finding the friction, and designing a clearer way through it.</p>
-      </div>
-    </section>
-
-    <section class="principles shell">
-      <article><span>01</span><h3>People first</h3><p>Human judgment stays where consequences matter.</p></article>
-      <article><span>02</span><h3>Keep learning</h3><p>Curiosity is part of the work, not a side note.</p></article>
-      <article><span>03</span><h3>Think in systems</h3><p>The best screen is only as good as the workflow around it.</p></article>
-    </section>
-
-    <section id="work" class="work-wrap">
-      <div class="work shell">
+    <section id="work" class="work-band">
+      <div class="shell work-grid">
         <div class="work-copy">
-          <p class="kicker gold">SELECTED WORK</p>
+          <p class="eyebrow gold">FEATURED WORK</p>
           <h2>ParcelTrace</h2>
-          <p class="work-sub">AI-Assisted Property Intelligence</p>
-          <p class="work-body">A product concept inspired by direct operational observation in municipal code enforcement. ParcelTrace explores how prior property research could be preserved, compared against new signals, and routed to people for consequential decisions.</p>
-          <div class="work-actions">
-            <a class="btn btn-light" href="case-study.html">Read case study</a>
-            <a class="link-arrow light" href="prototype/">Launch prototype <span>↗</span></a>
-          </div>
+          <p class="subtitle">AI-Assisted Property Intelligence</p>
+          <p class="body-copy">A product concept inspired by real operational observation in municipal code enforcement. ParcelTrace explores how prior property research could be preserved, compared against new signals, and routed to people for consequential decisions.</p>
+          <div class="actions"><a class="button light" href="case-study.html">Read case study →</a><a class="button outline-light" href="prototype/">Launch prototype →</a></div>
         </div>
-
-        <div class="app-preview" aria-label="ParcelTrace interface preview">
-          <div class="app-top"><strong>ParcelTrace</strong><span>Property 360</span></div>
-          <div class="app-grid">
-            <div class="stat"><small>Route</small><b>Targeted delta</b></div>
-            <div class="stat"><small>Confidence</small><b>72%</b></div>
-            <div class="stat"><small>Review</small><b>Required</b></div>
-          </div>
-          <div class="app-content">
-            <div class="line l1"></div><div class="line l2"></div><div class="line l3"></div>
-            <div class="alert">Human review required</div>
-          </div>
+        <div class="work-visual">
+          <figure class="work-photo building"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Wrought_iron_balcony%2C_Lower_Pontalba_Building%2C_New_Orleans_LOC_agc.7a02778.jpg?width=1200" alt="Historic wrought iron architecture in New Orleans" /></figure>
+          <div class="quote-panel"><blockquote>“From scattered<br>records to a<br>clearer path.”</blockquote><span></span><p>HISTORY<br>CONTEXT<br>INSIGHTS<br>ACTION</p></div>
+          <figure class="work-photo bridge"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Crescent_City_Connection-New_Orleans.jpg?width=1200" alt="Crescent City Connection over the Mississippi River" /></figure>
         </div>
       </div>
     </section>
 
-    <section id="lens" class="lens shell section-rule">
-      <div class="section-marker"><span>03</span><p>LENS</p></div>
-      <div class="lens-heading">
-        <p class="kicker">LIFE THROUGH MY LENS</p>
-        <h2>What keeps me looking closer.</h2>
-        <p>Art, photography, place, and small details shape how I notice patterns and compose experiences.</p>
-      </div>
+    <section id="story" class="story shell">
+      <div><p class="eyebrow">MY STORY</p><h2>Curiosity became a career direction.</h2></div>
+      <div><p>I’ve always been drawn to solving problems, helping people, art, and technology. After more than a decade working inside complex government operations, my curiosity about AI and design became something I wanted to build with — not simply watch from the sidelines.</p><p>Today I’m applying that analytical background to human-centered products: understanding the system, finding the friction, and designing a clearer way through it.</p></div>
+    </section>
+
+    <section id="lens" class="lens shell">
+      <div class="lens-copy"><p class="eyebrow">LIFE THROUGH MY LENS</p><h2>Art, photography, place, and detail.</h2><p>What keeps me looking closer also shapes how I notice patterns, frame problems, and compose experiences.</p></div>
       <div class="lens-grid">
-        <figure class="lens-card big">
-          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rows_of_trees_in_Audubon_Park.jpg?width=1200" alt="Rows of trees in Audubon Park" />
-          <figcaption><b>Light + landscape</b><span>Audubon Park</span></figcaption>
-        </figure>
-        <figure class="lens-card">
-          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Wrought_iron_balcony%2C_Lower_Pontalba_Building%2C_New_Orleans_LOC_agc.7a02778.jpg?width=900" alt="Historic wrought iron balcony in New Orleans" />
-          <figcaption><b>Pattern + detail</b><span>Ironwork</span></figcaption>
-        </figure>
-        <figure class="lens-card">
-          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Crescent_City_Connection-New_Orleans.jpg?width=1200" alt="Crescent City Connection over the Mississippi River" />
-          <figcaption><b>Structure + connection</b><span>Crescent City Connection</span></figcaption>
-        </figure>
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rows_of_trees_in_Audubon_Park.jpg?width=1000" alt="Rows of trees in Audubon Park" /><figcaption>Light + landscape</figcaption></figure>
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Wrought_iron_balcony%2C_Lower_Pontalba_Building%2C_New_Orleans_LOC_agc.7a02778.jpg?width=900" alt="New Orleans wrought iron detail" /><figcaption>Pattern + detail</figcaption></figure>
+        <figure><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Crescent_City_Connection-New_Orleans.jpg?width=1000" alt="Crescent City Connection" /><figcaption>Structure + connection</figcaption></figure>
       </div>
     </section>
 
-    <section class="learning shell section-rule">
-      <div><p class="kicker">CURRENTLY LEARNING</p><h2>Design + AI, with intention.</h2></div>
-      <p>Developing hands-on product design skills through professional coursework, independent product work, prototyping, and applied AI exploration.</p>
-    </section>
-
-    <section class="contact">
-      <div class="shell contact-inner">
-        <div><p class="kicker gold">NEW ORLEANS, LOUISIANA</p><h2>Let’s build something useful — beautifully.</h2></div>
-        <a class="contact-link" href="mailto:missinglinq@outlook.com">missinglinq@outlook.com</a>
-        <a class="footer-rabbit" href="rabbit/" aria-label="Rabbit Easter egg">🐇</a>
-      </div>
+    <section class="contact-band">
+      <div class="shell contact-inner"><div><p class="eyebrow gold">NEW ORLEANS, LOUISIANA</p><h2>Let’s build something useful — beautifully.</h2></div><a href="mailto:missinglinq@outlook.com">missinglinq@outlook.com</a><a class="footer-rabbit" href="rabbit/" aria-label="Rabbit Easter egg">🐇</a></div>
     </section>
   </main>
-
   <footer><div class="shell footer-inner"><span>© 2026 Anna Mustapha</span><span>Product + UX Design</span></div></footer>
 </body>
 </html>
