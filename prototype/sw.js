@@ -1,4 +1,4 @@
-const CACHE = 'parceltrace-v2';
+const CACHE = 'parceltrace-v3';
 const ASSETS = [
   './',
   './index.html',
