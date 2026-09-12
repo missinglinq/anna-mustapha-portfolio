@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Anna Mustapha — Product + UX designer focused on complex systems, human-centered AI, and data-rich workflows.">
+  <meta name="theme-color" content="#080814">
   <title>Anna Mustapha | Product + UX Designer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">FEATURED CASE STUDY · AI + ENTERPRISE UX</p>
+          <p class="eyebrow">FEATURED CASE STUDY · COMPLEX SYSTEMS + HUMAN-AI UX</p>
           <h1>ParcelTrace</h1>
           <div class="hero-thesis"><span>Preserve the history.</span><span>Research the change.</span></div>
           <p class="lede">An AI-assisted property intelligence concept that preserves prior research, identifies meaningful changes, and keeps consequential decisions in human hands.</p>
@@ -57,7 +58,7 @@
                 <nav><b>Overview</b><span>History</span><span>Signals</span></nav>
                 <dl><dt>Prior baseline</dt><dd>Found</dd><dt>Verified owner</dt><dd>Jordan Ellis</dd><dt>New record</dt><dd>J. Ellis Estate</dd><dt>Route</dt><dd>Targeted delta</dd></dl>
                 <div class="evidence"><span>Evidence linked</span><b>12 sources</b></div>
-                <button>Review evidence <span>→</span></button>
+                <button type="button">Review evidence <span>→</span></button>
               </div>
             </div>
           </div>
@@ -87,10 +88,10 @@
       <div class="shell opportunity-grid">
         <div class="opportunity-copy"><p class="eyebrow">THE PRODUCT RESPONSE</p><h2>One property.<br><span>A persistent history.</span></h2><p>ParcelTrace organizes prior research, new records, supporting signals, conflicts, and human decisions around the property itself.</p><div class="micro-stats"><span><b>01</b> Preserve</span><span><b>02</b> Compare</span><span><b>03</b> Verify</span></div></div>
         <div class="capability-grid">
-          <article class="capability featured"><span class="cap-num">01</span><div><h3>Reuse what was verified</h3><p>Preserve prior work as a versioned baseline with linked evidence, so useful research does not disappear when a case closes.</p></div><div class="mini-timeline"><i></i><span>Verified baseline</span><i></i><span>New signal</span><i></i><span>Human decision</span></div></article>
-          <article class="capability"><span class="cap-num">02</span><div><h3>Research the delta</h3><p>Use AI to search, compare, and explain what materially changed instead of starting from zero.</p></div><div class="delta-card"><span>Changed since baseline</span><b>3 signals</b></div></article>
-          <article class="capability"><span class="cap-num">03</span><div><h3>Escalate uncertainty</h3><p>Keep ambiguous identities, complex chains, and consequential decisions with qualified people.</p></div><div class="review-card"><span>Needs review</span><b>Human verification required</b></div></article>
-          <article class="capability hypothesis-card"><span class="cap-num">04</span><div><h3>Designed to transfer</h3><p><strong>Design hypothesis:</strong> the same persistent-history pattern may transfer to other jurisdictions and regulated property workflows, subject to local rules, data access, and validation.</p></div></article>
+          <article class="capability featured"><span class="cap-num">01</span><div><h3>Reuse what was verified</h3><p>Preserve prior work as a versioned baseline with linked evidence, so useful research does not disappear when a case closes.</p></div></article>
+          <article class="capability"><span class="cap-num">02</span><div><h3>Research the delta</h3><p>Use AI to search, compare, and explain what materially changed instead of starting from zero.</p></div></article>
+          <article class="capability"><span class="cap-num">03</span><div><h3>Escalate uncertainty</h3><p>Keep ambiguous identities, complex chains, and consequential decisions with qualified people.</p></div></article>
+          <article class="capability hypothesis"><span class="cap-num">04</span><div><h3>Designed to transfer</h3><p><b>Design hypothesis:</b> the same persistent-history pattern may transfer to other jurisdictions and regulated property workflows, subject to local rules, data access, and validation.</p></div></article>
         </div>
       </div>
     </section>
@@ -108,21 +109,23 @@
     </section>
 
     <section class="product-console">
-      <div class="shell console-grid">
-        <div class="console-copy"><p class="eyebrow">DESIGNED LIKE A PRODUCT</p><h2>Dense information, without visual overload.</h2><p>The interface treats property intelligence as a working environment, not a single answer. Filters, change states, confidence indicators, linked evidence, and review routes help users narrow the field while keeping the system legible.</p><a class="text-link" href="prototype/">Open the interactive prototype →</a></div>
-        <div class="console-panel">
-          <div class="console-toolbar"><div><span class="active">All</span><span>Changed</span><span>Needs Review</span><span>Verified</span></div><button>Sort: Last updated ↓</button></div>
-          <div class="result-row"><span class="dot violet"></span><div><b>1432 Cypress Ave.</b><small>Ownership signal changed · 12 sources</small></div><em>Needs review</em><strong>72%</strong></div>
-          <div class="result-row"><span class="dot green"></span><div><b>820 Dauphine St.</b><small>No material change · 8 sources</small></div><em class="verified">Verified</em><strong>96%</strong></div>
-          <div class="result-row"><span class="dot blue"></span><div><b>2315 St. Claude Ave.</b><small>New filing detected · 6 sources</small></div><em>Changed</em><strong>81%</strong></div>
+      <div class="shell">
+        <div class="console-heading"><p class="eyebrow">DESIGNED LIKE A PRODUCT</p><h2>Dense information, without visual overload.</h2><p>The interface treats property intelligence as a working environment, not a single answer. Filters, change states, confidence indicators, linked evidence, and review routes help users narrow the field while keeping the system legible.</p><a class="text-link" href="prototype/">Open the interactive prototype →</a></div>
+        <div class="console-shell" aria-label="Illustrative ParcelTrace research queue">
+          <div class="console-toolbar"><div class="filters"><span class="filter active">All</span><span class="filter">Changed</span><span class="filter">Needs Review</span><span class="filter">Verified</span></div><span class="sort">Sort: Last updated ↓</span></div>
+          <div class="console-list">
+            <div class="console-row"><div><strong>1432 Cypress Ave.</strong><small>Ownership signal changed · 12 sources</small></div><span class="status review">Needs review</span><strong>72%</strong><span class="hide-mobile">Targeted delta</span></div>
+            <div class="console-row"><div><strong>820 Dauphine St.</strong><small>No material change · 8 sources</small></div><span class="status verified">Verified</span><strong>96%</strong><span class="hide-mobile">Reuse + verify</span></div>
+            <div class="console-row"><div><strong>2315 St. Claude Ave.</strong><small>New filing detected · 6 sources</small></div><span class="status changed">Changed</span><strong>81%</strong><span class="hide-mobile">Research delta</span></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="story" class="story">
       <div class="shell story-grid">
-        <div><p class="eyebrow">WHY THIS WORK</p><h2>Complex systems are where my past experience and product design meet.</h2><p>After more than a decade working across public-sector finance, operations, data, performance measurement, procurement, and organizational change, I’m applying that systems perspective to Product + UX design—especially complex, regulated, data-rich, and AI-assisted products.</p><div class="experience-inline"><span><b>12/2025 — 03/2026</b> Finance Analyst · Governor’s Office of Community Development</span><span><b>07/2015 — 12/2024</b> Management Development Analyst II → Specialist II · Mayor’s Office of Code Enforcement</span></div><a class="button primary" href="case-study.html">Explore ParcelTrace →</a></div>
-        <blockquote>“AI does the searching.<br>People make the consequential call.”<small>PARCELTRACE DESIGN PRINCIPLE<br>Anna Mustapha · Product + UX</small></blockquote>
+        <div class="story-copy"><p class="eyebrow">WHY THIS WORK</p><h2>Complex systems are where my past experience and product design meet.</h2><p>After more than a decade working across public-sector finance, operations, data, performance measurement, procurement, and organizational change, I’m applying that systems perspective to Product + UX design—especially complex, regulated, data-rich, and AI-assisted products.</p><p><strong>Recent experience:</strong> Finance Analyst, Governor’s Office of Community Development (12/2025–03/2026) · Management Development Analyst II → Specialist II, Mayor’s Office of Code Enforcement (07/2015–12/2024).</p><a class="button primary" href="case-study.html">Explore ParcelTrace →</a></div>
+        <div class="quote-card"><blockquote>“AI does the searching.<br>People make the consequential call.”</blockquote><small>PARCELTRACE DESIGN PRINCIPLE<br>Anna Mustapha · Product + UX</small></div>
       </div>
     </section>
   </main>
